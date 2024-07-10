@@ -24,7 +24,7 @@ def changePage(content, app):
         )
         text_label.pack(side='left', padx=35, pady=25)
 
-        image = Image.open("Tkinter/Images/logo.png")
+        image = Image.open("Images/logo.png")
         image = image.resize((40, 40))
         photo = ImageTk.PhotoImage(image)
 

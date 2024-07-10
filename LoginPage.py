@@ -7,7 +7,7 @@ from PIL import Image, ImageTk
 
 def loginScreen(app, frame_width, frame_height, frame_x, frame_y):
     # -------------------------------- Bg Img --------------------------------
-    image = Image.open("Tkinter/Images/bg.png")
+    image = Image.open("Images/bg.png")
     image = image.resize((app.winfo_screenwidth(), app.winfo_screenheight()))
     photo = ImageTk.PhotoImage(image)
 
@@ -19,15 +19,6 @@ def loginScreen(app, frame_width, frame_height, frame_x, frame_y):
     # Store a reference to the image to prevent garbage collection
     app.image_reference = photo
     # -------------------------------- TOP INTRO --------------------------------
-    # label = ctk.CTkLabel(
-    #     master=canvas,
-    #     text="Welcome to the Pehal Portal!",
-    #     font=("Helvetica", 36, "bold"),
-    #     text_color="white",
-    #     fg_color="red",
-    # )
-    # canvas.create_window(screen_width // 2, 40, window=label)
-
     canvas.create_text(
         screen_width // 2, 80,
         text="Welcome to the Parking Portal!",
@@ -48,7 +39,7 @@ def loginScreen(app, frame_width, frame_height, frame_x, frame_y):
     )
     frame.place(x=frame_x, y=frame_y, anchor='center')
 
-    image_path = "Tkinter/Images/logo.png"
+    image_path = "Images/logo.png"
     try:
         image = Image.open(image_path)
         ctk_image = ctk.CTkImage(light_image=image, dark_image=image, size=(100, 100))
