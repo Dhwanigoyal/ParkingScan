@@ -42,28 +42,6 @@ Our project is developed by a dedicated team of students under the guidance of e
 - **Mridula Pal** 
 - **Nitika Joshi**
 
-
-## Getting Started
-
-1. **Clone the Repository:**
-
-   ```bash
-   git clone 
-   ```
-
-2. **Install Dependencies:**
-
-
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-3. **Run the Application:**
-
-   ```bash
-   ParkingScan.py
-   ```
-
 ## Contributing
 
 We welcome contributions to improve the project! To contribute:
