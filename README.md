@@ -1,8 +1,8 @@
-##Parking Scan
+## Parking Scan
 
 Parking Scan is a Python-based application developed using Tkinter. It is designed to manage and visualize data from a parking lot detection system. The app offers a user-friendly interface with features such as a login screen, real-time visualization of parking lot status, and detailed reports. The application utilizes vision-based technology for cost-effective parking guidance.
 
-##Features
+## Features
 
 *Simple Login*: Secure and straightforward login and registration process.
 *Real-Time Parking Lot Status*: View the current status of parking lots in real-time.
@@ -11,7 +11,7 @@ Parking Scan is a Python-based application developed using Tkinter. It is design
 *High Efficiency in Parking Slot Detection*: Accurate detection of parking slots with high efficiency.
 *High Accuracy in Parking Slot Occupancy Classification*: Reliable classification of parking slot occupancy.
 
-##Project Description
+## Project Description
 
 Parking Scan acts as an interface for Parking Guidance Information (PGI) systems, aiming to provide drivers with information about nearby parking lots and the number of available slots. Vision-based solutions are used as a cost-effective alternative to traditional PGI systems that rely on hardware sensors installed in each parking slot.
 
@@ -19,8 +19,8 @@ Vision-based systems analyze parking occupancy using images captured by cameras 
 
 This project introduces an algorithm for Automatic Parking Slot Detection and Occupancy Classification (APSD-OC) based solely on input images. The approach involves:
 
-1.Detecting vehicles in a series of parking lot images and applying clustering in a bird's eye view to identify parking slots.
-2.Classifying each detected parking slot as occupied or vacant using a specifically trained ResNet34 deep classifier.
+1. Detecting vehicles in a series of parking lot images and applying clustering in a bird's eye view to identify parking slots.
+2. Classifying each detected parking slot as occupied or vacant using a specifically trained ResNet34 deep classifier.
 
 The two-step approach is extensively evaluated on publicly available datasets (PKLot and CNRPark+EXT), demonstrating high efficiency in parking slot detection and robustness against illegal parking or passing vehicles. The trained classifier achieves high accuracy in parking slot occupancy classification.
 
