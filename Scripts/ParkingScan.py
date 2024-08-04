@@ -1,6 +1,5 @@
 import customtkinter as ctk
 from LoginPage import loginScreen
-from MainPage import Dashboard
 
 
 def main_window(app):
@@ -17,8 +16,7 @@ def main_window(app):
     frame_x = screen_width // 2
     frame_y = (screen_height - 50) // 2
 
-    Dashboard(app)
-    # loginScreen(app, frame_width, frame_height, frame_x, frame_y)
+    loginScreen(app, frame_width, frame_height, frame_x, frame_y)
 
 
 def main():

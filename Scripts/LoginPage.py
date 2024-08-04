@@ -19,6 +19,15 @@ def loginScreen(app, frame_width, frame_height, frame_x, frame_y):
     # Store a reference to the image to prevent garbage collection
     app.image_reference = photo
     # -------------------------------- TOP INTRO --------------------------------
+    # label = ctk.CTkLabel(
+    #     master=canvas,
+    #     text="Welcome to the Pehal Portal!",
+    #     font=("Helvetica", 36, "bold"),
+    #     text_color="white",
+    #     fg_color="red",
+    # )
+    # canvas.create_window(screen_width // 2, 40, window=label)
+
     canvas.create_text(
         screen_width // 2, 80,
         text="Welcome to the Parking Portal!",
@@ -100,6 +109,11 @@ def loginScreen(app, frame_width, frame_height, frame_x, frame_y):
         text_color="white"
     )
     login_button.pack(pady=12)
+
+    def on_key_press(event):
+        login_button.invoke()
+
+    app.bind('<Return>', on_key_press)
 
 
 def login(app, user_entry, user_pass):
