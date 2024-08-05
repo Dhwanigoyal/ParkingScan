@@ -28,17 +28,16 @@ This comprehensive approach is extensively evaluated on publicly available datas
 Our project is developed by a dedicated team of students under the guidance of experienced mentors. We aim to create innovative solutions for parking lot management using vision-based technologies.
 
 # Mentors
-
-Dr. Sandeep Mandia
-Dr. Shishir Maheshwari
-Dr. Neeru Jindal
-Prof. Kulbir Singh
+- **Prof. Kulbir Singh**
+- **Dr. Neeru Jindal**
+- **Dr. Shishir Maheshwari**
+- **Dr. Sandeep Mandia**
 
 # Students
 
-Dhwani Goyal
-Aditya Pandey 
-Vaibhav Baldeva 
-Mridula Pal 
-Nitika Joshi 
+- **Dhwani Goyal**
+- **Aditya Pandey** 
+- **Vaibhav Baldeva** 
+- **Mridula Pal** 
+- **Nitika Joshi** 
 
